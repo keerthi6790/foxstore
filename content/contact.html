@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="nav-link">
+    <div class="search-main">
+      <input type="text" placeholder="Search..." class="search">
+    </div>
+    <span class="store-name">Fox Store</span>
+    <div class="icons">
+      <div class="social">
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-messenger icon-style"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram icon-style"></i></a>
+        <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest-square icon-style"></i></a>
+      </div>
+      <div class="loginicon">
+        <a href="./logincredientals/signup.html"><i class="fas fa-user-circle icon-style login"><span
+              class="loginname">Login</span></i></a>
+      </div>
+      <div class="cart">
+        <i class="fas fa-shopping-cart icon-style login"><span class="loginname">Cart</span></i>
+      </div>
+    </div>
+  </div>
+  <div class="links">
+    <a href="./index.html"><span class="active">Home</span></a>
+    <a href="./allproduct.html"><span>Product</span></a>
+    <a href="./about.html"><span>About</span></a>
+    <a href="./contact.html"><span>Contact</span></a>
+  </div>
+  <!-- -----------------------------Header----------------------------- -->
+  <h3 style="text-align: center;margin: 2em;">Get In Touch</h3>
+  <div class="contact-form">
+    <form action="">
+      <div class="contact-grid">
+        <div>
+          <label for="fname">First Name*</label> <br>
+          <input type="text" name="fname" id="fname">
+        </div>
+        <div>
+          <label for="lname">Last Name*</label> <br>
+          <input type="text" name="lname" id="lname">
+        </div>
+      </div>
+      <div style="margin-top: 1em;">
+        <label for="email">Email*</label> <br>
+        <input type="email" name="email" id="email"> <br>
+      </div>
+      <div style="margin-top: 1em;">
+        <label for="comments">Comments*</label> <br>
+        <input type="text" name="comments" id="comments"> <br>
+      </div>
+      <div class="contact-submit-div">
+        <input type="submit" onclick="onSubmit()" value="Submit" class="contact-submit">
+      </div>
+    </form>
+  </div>
+  <div class="footer">
+    <div class="footer-section">
+      <h3>fox Store</h3>
+    </div>
+    <div class="footer-section">
+      <ul class="footer-links">
+        <li>Home</li>
+        <li>Product</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <ul class="footer-social">
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>Pinterest</li>
+        <li>Twitter</li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Join Us...</h4>
+      <label for="email" class="email">Email*</label>
+      <input type="email" name="email" id="email">
+      <input type="submit" value="Join now">
+    </div>
+  </div>
+  <div class="copy">
+    <div>&copy;Copyrighted by FoxStore.</div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>

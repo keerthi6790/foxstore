@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-size: 100% 220%;
+}
+.container{
+    background-color: white;
+    width: 370px;
+    margin: 3% 37% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+}
+h1{
+    font-family: Dancing Script;
+    font-size: 52px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 span{
+    color: red;
+}
+form input{
+    padding: 12px;
+    margin-bottom: 8px;
+    border: 1px solid grey;
+    width: 220px;
+    border-radius: 5px;
+}
+input[type=submit]
+{
+    border: none;
+    padding: 9px;
+    background-color: rgb(143, 143, 255);
+}
+.login{
+    background-color: orange;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+.or{
+    margin: 10px;
+}
+.account{
+    background-color: white;
+    width: 346px;
+    margin: 2% 36%;
+    border-radius: 4px;
+    text-align: center;
+    padding: 12px;
+}
+.account a{
+    display: inline-block;
+}
+.form-login{
+    margin: 10% 36% 0%;
+}
+.form-login a{
+    margin: 5% 0%;
+    display: flex;
+    justify-items: center;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 400;
+    color: orange;
+}
+.account1{
+    margin-left: 37%;
+}
+.appstore{
+    color: white;
+    margin: 3% 37% 0%;
+    text-align: center;
+}
+.appstore div{
+    margin: 5%;
+}

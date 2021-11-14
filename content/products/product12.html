@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav-link">
+        <div class="search-main">
+            <input type="text" placeholder="Search..." class="search">
+        </div>
+        <span class="store-name">Fox Store</span>
+        <div class="icons">
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank"><i
+                        class="fab fa-facebook-messenger icon-style"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram icon-style"></i></a>
+                <a href="https://www.pinterest.com" target="_blank"><i
+                        class="fab fa-pinterest-square icon-style"></i></a>
+            </div>
+            <div class="loginicon">
+                <a href="../logincredientals/signup.html"><i class="fas fa-user-circle icon-style login"><span
+                            class="loginname">Login</span></i></a>
+            </div>
+            <div class="cart">
+                <i class="fas fa-shopping-cart icon-style login"><span class="loginname">Cart</span></i>
+            </div>
+        </div>
+    </div>
+    <div class="links">
+        <a href="../index.html"><span>Home</span></a>
+        <a href="../allproduct.html"><span class="active">Product</span></a>
+        <a href="../about.html"><span>About</span></a>
+        <a href="../contact.html"> <span>Contact</span> </a>
+    </div>
+    <div class="product-details">
+        <div class="products">
+            <img src="../../pictures/product-11_adobespark-min.png" alt="">
+        </div>
+        <div class="products">
+            <div style="margin-top: 3em;font-weight: 100;font-size: 27px;">Pant</div>
+            <div style="font-weight: 100;margin: 0.9em 0em; color: #cc572a;font-size: 27px;font-style: italic;">$11.80
+            </div>
+            <label for="Quantity" style="color: #cc572a;font-style: italic;font-size: 19px;">Quantity</label><br>
+            <input type="number" name="quantity" id="quantity"> <br>
+            <button onclick="addcart(11)">Add to Cart</button> <br>
+            <button class="buynow">Buy Now</button>
+            <div class="description">
+                <h4>Description</h4>
+                This is black colored track pant for both men and women.This is available in different sizes.
+                <div class="listofsizes">
+                    <ul>
+                        <li>S</li>
+                        <li>M</li>
+                        <li>l</li>
+                        <li>XL</li>
+                        <li>XXL</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../index.js"></script>
+</body>
+
+</html>

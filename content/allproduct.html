@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="nav-link">
+        <div class="search-main">
+            <input type="text" placeholder="Search..." class="search">
+        </div>
+        <span class="store-name">Fox Store</span>
+        <div class="icons">
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank"><i
+                        class="fab fa-facebook-messenger icon-style"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram icon-style"></i></a>
+                <a href="https://www.pinterest.com" target="_blank"><i
+                        class="fab fa-pinterest-square icon-style"></i></a>
+            </div>
+            <div class="loginicon">
+                <a href="./logincredientals/signup.html"><i class="fas fa-user-circle icon-style login"><span
+                            class="loginname">Login</span></i></a>
+            </div>
+            <div class="cart">
+                <i class="fas fa-shopping-cart icon-style login"><span class="loginname">Cart</span></i>
+            </div>
+        </div>
+    </div>
+    <div class="links">
+        <a href="./index.html"><span>Home</span></a>
+        <a href="./allproduct.html"><span class="active">Product</span></a>
+        <a href="./about.html"><span>About</span></a>
+        <a href="./contact.html"> <span>Contact</span> </a>
+    </div>
+    <!-- -----------------------------Header----------------------------- -->
+    <div class="bestSellersProducts">
+        <div id="product">
+            <a href="./products/product1.html">
+                <div class="image-wrapper">
+                    <img class="bestSellersImage" src="" alt="" id="productimage0">
+                </div>
+                <div class="hidden-details">
+                    <div>Quick View</div>
+                </div>
+            </a>
+            <div class="bestSellersNameAndPrice">
+                <div>
+                    <div id="productname0" class="bestSellersName"></div>
+                    <div id="productprice0" class="bestSellersPrice"></div>
+                </div>
+                <div>
+                    <i onclick="addcart(0)" class="fal fa-shopping-cart"
+                        style="position:relative;font-size: 24px;right: 2em;"></i>
+                </div>
+            </div>
+        </div>
+        <div id="product">
+            <a href="./products/product2.html">
+                <div class="image-wrapper"><img class="bestSellersImage" src="" alt="" id="productimage1"></div>
+                <div class="hidden-details">
+                    <div>Quick View</div>
+                </div>
+            </a>
+            <div class="bestSellersNameAndPrice">
+                <div>
+                    <div id="productname1" class="bestSellersName"></div>
+                    <div id="productprice1" class="bestSellersPrice"></div>
+                </div>
+                <div>
+                    <i onclick="addcart(1)" class="fal fa-shopping-cart"
+                        style="position:relative;font-size: 24px;right: 2em;"></i>
+                </div>
+            </div>
+        </div>
+        <div id="product">
+            <a href="./products/product3.html">
+                <div class="image-wrapper"><img class="bestSellersImage" src="" alt="" id="productimage2"></div>
+                <div class="hidden-details">
+                    <div>Quick View</div>
+                </div>
+            </a>
+            <div class="bestSellersNameAndPrice">
+                <div>
+                    <div id="productname2" class="bestSellersName"></div>
+                    <div id="productprice2" class="bestSellersPrice"></div>
+                </div>
+                <div>
+                    <i onclick="addcart(2)" class="fal fa-shopping-cart"
+                        style="position:relative;font-size: 24px;right: 2em;"></i>
+                </div>
+            </div>
+        </div>
+        <div id="product">
+            <a href="./products/product4.html">
+                <div class="image-wrapper"><img class="bestSellersImage" src="" alt="" id="productimage3"></div>
+                <div class="hidden-details">
+                    <div>Quick View</div>
+                </div>
+            </a>
+            <div class="bestSellersNameAndPrice">
+                <div>
+                    <div id="productname3" class="bestSellersName"></div>
+                    <div id="productprice3" class="bestSellersPrice"></div>
+                </div>
+                <div>
+                    <i onclick="addcart(3)" class="fal fa-shopping-cart"
+                        style="position:relative;font-size: 24px;right: 2em;"></i>
+                </div>
+            </div>
+        </div>
+        <div id="product">
+            <a href="./products/product5.html">
+                <div class="image-wrapper"><img class="bestSellersImage" src="" alt="" id="productimage4"></div>
+                <div class="hidden-details">
+                    <div>Quick View</div>
+                </div>
+            </a>
+            <div class="bestSellersNameAndPrice">
+                <div>
+                    <div id="productname4" class="bestSellersName"></div>
+                    <div id="productprice4" class="bestSellersPrice"></div>
+                </div>
+                <div>
+                    <i onclick="addcart(4)" class="fal fa-shopping-cart"
+                        style="position:relative;font-size: 24px;right: 2em;"></i>
+                </div>
+            </div>
+        </div>
+        <div id="product">
+            <a href="./products/product6.html">
+                <div class="image-wrapper"><img class="bestSellersImage" src="" alt="" id="productimage5"></div>
+                <div class="hidden-details">
+                    <div>Quick View</div>
+                </div>
+            </a>
+            <div class="bestSellersNameAndPrice">
+                <div>
+                    <div id="productname5" class="bestSellersName"></div>
+                    <div id="productprice5" class="bestSellersPrice"></div>
+                </div>
+                <div>
+                    <i onclick="addcart(5)" class="fal fa-shopping-cart"
+                        style="position:relative;font-size: 24px;right: 2em;"></i>
+                </div>
+            </div>
+        </div>
+        <div id="product">
+            <a href="./products/product7.html">
+                <div class="image-wrapper"><img class="bestSellersImage" src="" alt="" id="productimage6"></div>
+                <div class="hidden-details">
+                    <div>Quick View</div>
+                </div>
+            </a>
+            <div class="bestSellersNameAndPrice">
+                <div>
+                    <div id="productname6" class="bestSellersName"></div>
+                    <div id="productprice6" class="bestSellersPrice"></div>
+                </div>
+                <div>
+                    <i onclick="addcart(6)" class="fal fa-shopping-cart"
+                        style="position:relative;font-size: 24px;right: 2em;"></i>
+                </div>
+            </div>
+        </div>
+        <div id="product">
+            <a href="./products/product8.html">
+                <div class="image-wrapper"><img class="bestSellersImage" src="" alt="" id="productimage7"></div>
+                <div class="hidden-details">
+                    <div>Quick View</div>
+                </div>
+            </a>
+            <div class="bestSellersNameAndPrice">
+                <div>
+                    <div id="productname7" class="bestSellersName"></div>
+                    <div id="productprice7" class="bestSellersPrice"></div>
+                </div>
+                <div>
+                    <i onclick="addcart(7)" class="fal fa-shopping-cart"
+                        style="position:relative;font-size: 24px;right: 2em;"></i>
+                </div>
+            </div>
+        </div>
+        <div id="product">
+            <a href="./products/product9.html">
+                <div class="image-wrapper"><img class="bestSellersImage" src="" alt="" id="productimage8"></div>
+                <div class="hidden-details">
+                    <div>Quick View</div>
+                </div>
+            </a>
+            <div class="bestSellersNameAndPrice">
+                <div>
+                    <div id="productname8" class="bestSellersName"></div>
+                    <div id="productprice8" class="bestSellersPrice"></div>
+                </div>
+                <div>
+                    <i onclick="addcart(8)" class="fal fa-shopping-cart"
+                        style="position:relative;font-size: 24px;right: 2em;"></i>
+                </div>
+            </div>
+        </div>
+        <div id="product">
+            <a href="./products/product10.html">
+                <div class="image-wrapper"><img class="bestSellersImage" src="" alt="" id="productimage9"></div>
+                <div class="hidden-details">
+                    <div>Quick View</div>
+                </div>
+            </a>
+            <div class="bestSellersNameAndPrice">
+                <div>
+                    <div id="productname9" class="bestSellersName"></div>
+                    <div id="productprice9" class="bestSellersPrice"></div>
+                </div>
+                <div>
+                    <i onclick="addcart(9)" class="fal fa-shopping-cart"
+                        style="position:relative;font-size: 24px;right: 2em;"></i>
+                </div>
+            </div>
+        </div>
+        <div id="product">
+            <a href="./products/product11.html">
+                <div class="image-wrapper"><img class="bestSellersImage" src="" alt="" id="productimage10"></div>
+                <div class="hidden-details">
+                    <div>Quick View</div>
+                </div>
+            </a>
+            <div class="bestSellersNameAndPrice">
+                <div>
+                    <div id="productname10" class="bestSellersName"></div>
+                    <div id="productprice10" class="bestSellersPrice"></div>
+                </div>
+                <div>
+                    <i onclick="addcart(10)" class="fal fa-shopping-cart"
+                        style="position:relative;font-size: 24px;right: 2em;"></i>
+                </div>
+            </div>
+        </div>
+        <div id="product">
+            <a href="./products/product12.html">
+                <div class="image-wrapper"><img class="bestSellersImage" src="" alt="" id="productimage11"></div>
+                <div class="hidden-details">
+                    <div>Quick View</div>
+                </div>
+            </a>
+            <div class="bestSellersNameAndPrice">
+                <div>
+                    <div id="productname11" class="bestSellersName"></div>
+                    <div id="productprice11" class="bestSellersPrice"></div>
+                </div>
+                <div>
+                    <i onclick="addcart(11)" class="fal fa-shopping-cart"
+                        style="position:relative;font-size: 24px;right: 2em;"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------footer-------------------- -->
+    <div class="footer">
+        <div class="footer-section">
+            <h3>fox Store</h3>
+        </div>
+        <div class="footer-section">
+            <ul class="footer-links">
+                <li>Home</li>
+                <li>Product</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <ul class="footer-social">
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Pinterest</li>
+                <li>Twitter</li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Join Us...</h4>
+            <label for="email" class="email">Email*</label>
+            <input type="email" name="email" id="email">
+            <input type="submit" value="Join now">
+        </div>
+    </div>
+    <div class="copy">
+        <div>&copy;Copyrighted by FoxStore.</div>
+    </div>
+    <script src="./allproduct.js"></script>
+</body>
+
+</html>
