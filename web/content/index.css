@@ -562,14 +562,14 @@ button{
   background-attachment: fixed;
 }
 .story-image2{
-  background: url('/pictures/about2.jpg');
+  background: url('../pictures/about2.jpg');
   width: auto;
   height: 70vh;
   background-attachment: fixed;
 }
 
 .story-image3{
-  background: url('/pictures/about3.jpg');
+  background: url('../pictures/about3.jpg');
   width: auto;
   height: 70vh;
   background-attachment: fixed;
@@ -589,4 +589,10 @@ button{
 }
 .listofsizes{
   margin-left: 40px;
+}
+.main-page-footer{
+  background-color: #f8f3f2;
+}
+.main-page-copy{
+  background: white;
 }
